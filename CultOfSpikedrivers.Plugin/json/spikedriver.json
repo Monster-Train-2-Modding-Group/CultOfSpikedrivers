@@ -1,0 +1,89 @@
+{
+  "$schema": "https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/releases/latest/download/schema.json",
+  "cards": [
+    {
+      "override": "replace",
+      "id": "Follower",
+      "names": {
+        "english": "Spikedriver Colony"
+      },
+      "card_art": "@SpikedriverColonyCardArt"
+    }
+  ],
+  "characters": [
+    {
+      "id": "SpikedriverColonyCharacter",
+      "names": {
+        "english": "Spikedriver Colony"
+      },
+      "character_art": "@SpikedriverColonyCharacterArt",
+      "sound_effects": [
+        "@SpikedriverAttack",
+        "@SpikedriverAttackPrep",
+        "@SpikedriverOnHit",
+        "@SpikedriverDeath",
+        "@SpikedriverSpawn"
+      ],
+      "size": 1,
+      "health": 1,
+      "attack_damage": 1,
+      "subtypes": [ "SubtypesData_TrainMachines" ],
+      "starting_status_effects": [
+        {
+          "status": "multistrike",
+          "count": 1
+        }
+      ],
+      "triggers": [ "@ExtinguishPermanentCopy" ]
+    }
+  ],
+  "character_triggers": [
+    {
+      "id": "ExtinguishPermanentCopy",
+      "trigger": "on_death",
+      "descriptions": {
+        "english": "Add a permanent copy of this card to your discard pile"
+      },
+      "effects": [ "@AddPermanentCopyToDiscard" ]
+    }
+  ],
+  "effects": [
+    {
+      "id": "SpawnSpikedriverColony",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "param_character": "@SpikedriverColonyCharacter"
+    },
+    {
+      "id": "AddPermanentCopyToDiscard",
+      "name": "CardEffectAddRunCard",
+      "copy_modifiers_from_source": true,
+      "param_int": 1,
+      "hide_tooltip": true,
+      "param_card_pool": "@SpikedriverColonyPool"
+    }
+  ],
+  "card_pools": [
+    {
+      "id": "SpikedriverColonyPool",
+      "cards": [ "Follower" ]
+    }
+  ],
+  "localization_terms": [
+    {
+      "key": "EventChoice_CultOfTheLambEvent_TakeCrown_Optional",
+      "texts": {
+        "english": "Get {Upgrade: CultOfTheLambRedCrown} and two {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "french": "Octroie {Upgrade: CultOfTheLambRedCrown} et {Card: Follower} x2.{DeckReward: CultOfTheLambUpgradeReward}",
+        "german": "Erhalte {Upgrade: CultOfTheLambRedCrown} und zwei {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "russian": "Получите «{Upgrade: CultOfTheLambRedCrown}» и два {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "portuguese": "Receba {Upgrade: CultOfTheLambRedCrown} e dois cartas de {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "chinese": "获得 {Upgrade: CultOfTheLambRedCrown} 和2个 {Card: Follower}。{DeckReward: CultOfTheLambUpgradeReward}",
+        "spanish": "Obtienes {Upgrade: CultOfTheLambRedCrown} y dos cartas de {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "chinese_traditional": "獲得{Upgrade: CultOfTheLambRedCrown}和二個{Card: Follower}。{DeckReward: CultOfTheLambUpgradeReward}",
+        "korean": "{Upgrade: CultOfTheLambRedCrown} 및 {Card: Follower} 둘을 획득합니다.{DeckReward: CultOfTheLambUpgradeReward}",
+        "japanese": "{Upgrade: CultOfTheLambRedCrown}と{Card: Follower}を2枚得る。{DeckReward: CultOfTheLambUpgradeReward}"
+      }
+    }
+  ]
+}

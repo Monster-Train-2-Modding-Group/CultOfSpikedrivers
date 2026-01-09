@@ -19,15 +19,14 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
-    <PackageReference Include="TrainworksReloaded.Base" Version="0.5.8" />
-    <PackageReference Include="Conductor" Version="0.2.2" />
+    <PackageReference Include="TrainworksReloaded.Base" Version="0.6.5" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="json/**/*.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="textures/**">
+    <None Update="assets/**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

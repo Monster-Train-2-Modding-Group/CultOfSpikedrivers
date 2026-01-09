@@ -1,0 +1,16 @@
+PLR_SpikedriverColony_HitReact.png
+size:256,256
+filter:Linear,Linear
+Body
+bounds:2,123,171,131
+Leg_1
+bounds:216,199,38,55
+Leg_2
+bounds:2,83,57,38
+Leg_3
+bounds:2,22,24,59
+Leg_4
+bounds:175,199,39,55
+Leg_5
+bounds:61,86,35,44
+rotate:90

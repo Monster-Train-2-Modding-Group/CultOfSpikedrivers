@@ -1,0 +1,242 @@
+{
+  "$schema": "https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/releases/latest/download/schema.json",
+  "game_objects": [
+    {
+      "id": "SpikedriverColonyCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "base_layer": {
+            "type": "texture",
+            "texture": "@Layer1Tex"
+          },
+          "transforms": [
+            {
+              "id": "Fire",
+              "position": {
+                "x": 0.11,
+                "y": 0.12
+              },
+              "layers": [ 0, 2 ]
+            },
+            {
+              "id": "Spikedriver",
+              "position": {
+                "x": 0.015,
+                "y": -0.025
+              },
+              "layers": [ 1 ]
+            }
+          ],
+          "layers": [
+            {
+              "type": "distortion",
+              "texture": "@Layer2Tex",
+              "motion_texture": "@Layer2Motion",
+              "motion_speed": 200,
+              "stretch": false,
+              "additive": false
+            },
+            {
+              "type": "texture",
+              "texture": "@Layer3Tex",
+              "motion_speed": 2000,
+              "stretch": false,
+              "additive": false,
+              "translation": {
+                "x": 0.1,
+                "y": 0.1
+              }
+            },
+            {
+              "type": "distortion",
+              "texture": "@Layer4Tex",
+              "motion_texture": "@Layer4Motion",
+              "stretch": false
+            },
+            {
+              "type": "glow",
+              "texture": "@Layer5Tex",
+              "tint": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.7490196
+              },
+              "linear_speed": {
+                "x": 16,
+                "y": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "SpikedriverColonyCharacterArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@SpikedriverColony",
+          "skeleton_animations": [
+            {
+              "animation": "idle",
+              "skeleton": "@SpikedriverColony_Idle"
+            },
+            {
+              "animation": "hit_react",
+              "skeleton": "@SpikedriverColony_HitReact"
+            },
+            {
+              "animation": "attack",
+              "skeleton": "@SpikedriverColony_Attack"
+            }
+          ],
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": -0.60,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      }
+    }
+  ],
+  "sound_effects": [
+    {
+      "id": "SpikedriverAttack",
+      "name": "Combat_Attack",
+      "clips": [ "@SpikedriverColonyAttack" ],
+      "volume_min": 0.75,
+      "volume_max": 0.75,
+      "pitch_min": 0.91039425,
+      "pitch_max": 1.0896058
+    },
+    {
+      "id": "SpikedriverAttackPrep",
+      "name": "Combat_AttackPrep",
+      "clips": [ "@SpikedriverColonyAttackPrep1", "@SpikedriverColonyAttackPrep2", "@SpikedriverColonyAttackPrep3" ],
+      "volume_min": 0.75,
+      "volume_max": 0.75,
+      "pitch_min": 0.9444187,
+      "pitch_max": 1.0370542
+    },
+    {
+      "id": "SpikedriverOnHit",
+      "name": "Combat_OnHit",
+      "clips": [ "@SpikedriverColonyOnHit1", "@SpikedriverColonyOnHit2" ],
+      "volume_min": 0.75,
+      "volume_max": 0.75,
+      "pitch_min": 0.94623655,
+      "pitch_max": 1.0358423
+    },
+    {
+      "id": "SpikedriverDeath",
+      "name": "Combat_Death",
+      "clips": [ "@SpikedriverColonyDeath" ],
+      "volume_min": 0.75,
+      "volume_max": 0.75
+    },
+    {
+      "id": "SpikedriverSpawn",
+      "name": "Combat_Spawn",
+      "clips": [ "@SpikedriverColonySpawn" ],
+      "volume_min": 0.75,
+      "volume_max": 0.75
+    }
+  ],
+  "audio_clips": [
+    {
+      "id": "SpikedriverColonyAttack",
+      "path": "assets/sounds/Attack_Babymetal.wav"
+    },
+    {
+      "id": "SpikedriverColonySpawn",
+      "path": "assets/sounds/Spawn_Colony.wav"
+    },
+    {
+      "id": "SpikedriverColonyDeath",
+      "path": "assets/sounds/Death_Colony.wav"
+    },
+    {
+      "id": "SpikedriverColonyOnHit1",
+      "path": "assets/sounds/OnHit_Colony1.wav"
+    },
+    {
+      "id": "SpikedriverColonyOnHit2",
+      "path": "assets/sounds/OnHit_Colony2.wav"
+    },
+    {
+      "id": "SpikedriverColonyAttackPrep1",
+      "path": "assets/sounds/Prep_Colony1.wav"
+    },
+    {
+      "id": "SpikedriverColonyAttackPrep2",
+      "path": "assets/sounds/Prep_Colony2.wav"
+    },
+    {
+      "id": "SpikedriverColonyAttackPrep3",
+      "path": "assets/sounds/Prep_Colony3.wav"
+    }
+  ],
+  "skeletons": [
+    {
+      "id": "SpikedriverColony_Idle",
+      "atlas_path": "assets/skeletons/PLR_SpikedriverColony_Idle.atlas.txt",
+      "data_path": "assets/skeletons/PLR_SpikedriverColony_Idle.json",
+      "texture_paths": [ "assets/skeletons/PLR_SpikedriverColony_Idle.png" ]
+    },
+    {
+      "id": "SpikedriverColony_HitReact",
+      "atlas_path": "assets/skeletons/PLR_SpikedriverColony_HitReact.atlas.txt",
+      "data_path": "assets/skeletons/PLR_SpikedriverColony_HitReact.json",
+      "texture_paths": [ "assets/skeletons/PLR_SpikedriverColony_HitReact.png" ]
+    },
+    {
+      "id": "SpikedriverColony_Attack",
+      "atlas_path": "assets/skeletons/PLR_SpikedriverColony_Attack.atlas.txt",
+      "data_path": "assets/skeletons/PLR_SpikedriverColony_Attack.json",
+      "texture_paths": [ "assets/skeletons/PLR_SpikedriverColony_Attack.png" ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "SpikedriverColony",
+      "path": "assets/textures/PLR_SpikedriverColony.png"
+    },
+    {
+      "id": "Layer1Tex",
+      "path": "assets/textures/Layer1Tex.png"
+    },
+    {
+      "id": "Layer2Tex",
+      "path": "assets/textures/Layer2Tex.png"
+    },
+    {
+      "id": "Layer2Motion",
+      "path": "assets/textures/Layer2Motion.png"
+    },
+    {
+      "id": "Layer3Tex",
+      "path": "assets/textures/Layer3Tex.png"
+    },
+    {
+      "id": "Layer4Tex",
+      "path": "assets/textures/Layer4Tex.png"
+    },
+    {
+      "id": "Layer4Motion",
+      "path": "assets/textures/Layer4Motion.png"
+    },
+    {
+      "id": "Layer5Tex",
+      "path": "assets/textures/Layer5Tex.png"
+    }
+  ]
+}
