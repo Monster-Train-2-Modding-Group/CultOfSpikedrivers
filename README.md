@@ -6,22 +6,15 @@
 
 Mod that swaps the cult of the lamb followers with Spikedriver Colony from MT1. It is also a mod showing how to swap assets, sounds, spine animations, and animated card art.
 
-
-
 ## Features
 
 * Cosmetic replacement of "Follower" with "Spikedriver Colony" from MT1.
 * With a config option Spikedriver Colony can retain its effect from MT1. 
   * **Note** that enabling this makes the mod **non-cosmetic** and can't be played with Daily Challenges (or other online modes).
 
-
-
-
 ## Installation / Usage
 
 It is **highly** recommended to use a mod manager (Thunderstore Mod Manager, Gale Mod Manager, or r2modman) to install this mod. If installing manually, then [Trainworks Reloaded](https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded) must be installed as well.
-
-
 
 Once installed, run the game once to generate the mod's configuration.
 
@@ -34,20 +27,16 @@ Once installed, run the game once to generate the mod's configuration.
 > 
 > Reminder if you set "Enable Classic Spikedriver Colony" to true, then you may not use this mod in Daily Challenges.
 
-
-
 ## Screenshots
 
 ![event](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/main/screenshots/event.jpg)
-<sub>The event when the mod is installed</sub>
+<br/><sub>The event when the mod is installed</sub>
 
 ![follower](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/main/screenshots/replacement.png)
-<sub>The replaced Follower card</sub>
+<br/><sub>The replaced Follower card</sub>
 
 ![follower2](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/main/screenshots/mt-original.png)
-<sub>The card when the configuration option is set to true</sub>
-
-
+<br/><sub>The card when the configuration option is set to true</sub>
 
 ## Credits
 
