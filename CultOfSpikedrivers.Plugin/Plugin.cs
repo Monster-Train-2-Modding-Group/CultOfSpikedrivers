@@ -105,7 +105,7 @@ namespace CultOfSpikedrivers.Plugin
             ConfigEntry<bool> ClassicSpikedrivers = Config.Bind<bool>("Options", "Enable Classic Spikedriver Colony", false,
                 new ConfigDescriptionBuilder
                 {
-                    English = "Spikedriver Colony retains its original effect from MT1 (Multistrike 1 and Extinguish: Add a permanent copy of this card to the discard pile.).",
+                    English = "Spikedriver Colony retains its original effect from MT1 (Multistrike 1 and Extinguish: Add a permanent copy of this card to the discard pile.). Warning enabling this makes the mod non-cosmetic, do not play daily challenges with this enabled.",
                 }.ToString());
 
             if (ClassicSpikedrivers.Value)
