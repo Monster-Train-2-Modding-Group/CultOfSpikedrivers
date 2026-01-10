@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/releases/latest/download/schema.json",
+  "localization_terms": [
+    {
+      "key": "EventChoice_CultOfTheLambEvent_TakeCrown_Optional",
+      "texts": {
+        "english": "Get {Upgrade: CultOfTheLambRedCrown} and two {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "french": "Octroie {Upgrade: CultOfTheLambRedCrown} et {Card: Follower} x2.{DeckReward: CultOfTheLambUpgradeReward}",
+        "german": "Erhalte {Upgrade: CultOfTheLambRedCrown} und zwei {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "russian": "Получите «{Upgrade: CultOfTheLambRedCrown}» и два {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "portuguese": "Receba {Upgrade: CultOfTheLambRedCrown} e dois cartas de {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "chinese": "获得 {Upgrade: CultOfTheLambRedCrown} 和2个 {Card: Follower}。{DeckReward: CultOfTheLambUpgradeReward}",
+        "spanish": "Obtienes {Upgrade: CultOfTheLambRedCrown} y dos cartas de {Card: Follower}.{DeckReward: CultOfTheLambUpgradeReward}",
+        "chinese_traditional": "獲得{Upgrade: CultOfTheLambRedCrown}和二個{Card: Follower}。{DeckReward: CultOfTheLambUpgradeReward}",
+        "korean": "{Upgrade: CultOfTheLambRedCrown} 및 {Card: Follower} 둘을 획득합니다.{DeckReward: CultOfTheLambUpgradeReward}",
+        "japanese": "{Upgrade: CultOfTheLambRedCrown}と{Card: Follower}を2枚得る。{DeckReward: CultOfTheLambUpgradeReward}"
+      }
+    }
+  ]
+}

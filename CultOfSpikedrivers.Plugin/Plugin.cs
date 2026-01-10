@@ -7,7 +7,6 @@ using System.Text;
 using TrainworksReloaded.Base;
 using TrainworksReloaded.Base.Character;
 using TrainworksReloaded.Base.Extensions;
-using TrainworksReloaded.Base.Prefab;
 using TrainworksReloaded.Core;
 using TrainworksReloaded.Core.Extensions;
 using TrainworksReloaded.Core.Interfaces;
@@ -55,7 +54,7 @@ namespace CultOfSpikedrivers.Plugin
         {
             Logger = base.Logger;
 
-            List<string> files = ["json/common.json", "json/spikedriver.json"];
+            List<string> files = ["json/localizations.json", "json/spikedriver.json"];
 
             var builder = Railhead.GetBuilder();
             builder.Configure(
