@@ -41,10 +41,10 @@ Once installed, run the game once to generate the mod's configuration.
 ![event](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/main/screenshots/event.jpg)
 <sub>The event when the mod is installed</sub>
 
-![follower](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/main/screenshots/replacement.jpg)
+![follower](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/main/screenshots/replacement.png)
 <sub>The replaced Follower card</sub>
 
-![follower2](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/main/screenshots/mt-original.jpg)
+![follower2](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/main/screenshots/mt-original.png)
 <sub>The card when the configuration option is set to true</sub>
 
 
