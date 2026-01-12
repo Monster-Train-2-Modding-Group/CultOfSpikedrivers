@@ -4,6 +4,8 @@
 [![Trainworks Reloaded](https://img.shields.io/badge/framework-Trainworks--Reloaded-blue?logo=github)](https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded)
 [![License](https://img.shields.io/github/license/Monster-Train-2-Modding-Group/CultOfSpikedrivers?color=lightgrey)](https://github.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/blob/main/LICENSE)
 
+Support language: English | [简体中文](https://github.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers/blob/main/README_zh.md)
+
 Mod that swaps the cult of the lamb followers with Spikedriver Colony from MT1. It is also a mod showing how to swap assets, sounds, spine animations, and animated card art.
 
 ## Features

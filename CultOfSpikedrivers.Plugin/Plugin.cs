@@ -106,6 +106,7 @@ namespace CultOfSpikedrivers.Plugin
                 new ConfigDescriptionBuilder
                 {
                     English = "Spikedriver Colony retains its original effect from MT1 (Multistrike 1 and Extinguish: Add a permanent copy of this card to the discard pile.). Warning enabling this makes the mod non-cosmetic, do not play daily challenges with this enabled.",
+                    Chinese = "钉锤大队是否使用一代的效果（多重攻击 1，亡语时将这张卡牌的永久性复制品加入弃牌堆）。不要在社区挑战或者每日挑战中启用此功能。"
                 }.ToString());
 
             if (ClassicSpikedrivers.Value)
