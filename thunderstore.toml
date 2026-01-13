@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "Conductor"
 name = "CultOfSpikedrivers"
-versionNumber = "1.0.0"
+versionNumber = "1.0.1"
 description = "Mod that swaps the Cult of the Lamb Follower with Spikedriver Colony from MT1"
 websiteUrl = "https://github.com/Monster-Train-2-Modding-Group/CultOfSpikedrivers"
 containsNsfwContent = false

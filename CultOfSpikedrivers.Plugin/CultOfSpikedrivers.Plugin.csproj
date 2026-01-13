@@ -6,12 +6,8 @@
     <Nullable>enable</Nullable>
     <RootNamespace>CultOfSpikedrivers.Plugin</RootNamespace>
     <LangVersion>latest</LangVersion>
-    <Version>0.1.0</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="**\STUB" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BepInEx.Analyzers" Version="1.0.8">
