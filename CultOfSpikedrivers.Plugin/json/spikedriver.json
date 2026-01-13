@@ -5,7 +5,16 @@
       "override": "replace",
       "id": "Follower",
       "names": {
-        "english": "Spikedriver Colony"
+        "english": "Spikedriver Colony",
+        "french": "Colonie de plante-crampons",
+        "german": "Nageltreiber-Kolonie",
+        "russian": "Колония костыльщиков",
+        "portuguese": "Colônia Perfurante",
+        "chinese": "钉锤大队",
+        "spanish": "Colonia de clavos",
+        "chinese_traditional": "鐵釘驅動殖民地",
+        "korean": "선로 유지군",
+        "japanese": "スパイクドライバー・コロニー"
       },
       "card_art": "@SpikedriverColonyCardArt"
     }
@@ -14,7 +23,16 @@
     {
       "id": "SpikedriverColonyCharacter",
       "names": {
-        "english": "Spikedriver Colony"
+        "english": "Spikedriver Colony",
+        "french": "Colonie de plante-crampons",
+        "german": "Nageltreiber-Kolonie",
+        "russian": "Колония костыльщиков",
+        "portuguese": "Colônia Perfurante",
+        "chinese": "钉锤大队",
+        "spanish": "Colonia de clavos",
+        "chinese_traditional": "鐵釘驅動殖民地",
+        "korean": "선로 유지군",
+        "japanese": "スパイクドライバー・コロニー"
       },
       "character_art": "@SpikedriverColonyCharacterArt",
       "sound_effects": [
@@ -42,7 +60,12 @@
       "id": "ExtinguishPermanentCopy",
       "trigger": "on_death",
       "descriptions": {
-        "english": "Add a permanent copy of this card to your discard pile"
+        "english": "Add a permanent copy of this card to your discard pile.",
+        "french": "Ajoute une copie permanente de cette carte à votre défausse.",
+        "german": "Füge deinem Ablagestapel eine bleibende Kopie dieser Karte hinzu.",
+        "russian": "Добавляет постоянную копию этой карты в ваш сброс.",
+        "portuguese": "Adiciona uma cópia permanente desta carta à sua pilha de descarte.",
+        "chinese": "将这张卡牌的永久性复制品加入弃牌堆。"
       },
       "effects": [ "@AddPermanentCopyToDiscard" ]
     }
